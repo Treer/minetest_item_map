@@ -1,4 +1,4 @@
-local filepath = "/home/user/mtrecipe/data.json"
+local filepath = minetest.get_worldpath() .. DIR_DELIM .. "itemsgraph.json"
 
 local recipes = {}
 local oldc = minetest.register_craft
